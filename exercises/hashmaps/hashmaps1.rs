@@ -16,10 +16,13 @@
 use std::collections::HashMap;
 
 fn fruit_basket() -> HashMap<String, u32> {
-    let mut basket = // TODO: declare your hash map here.
+    let mut basket = HashMap::default(); // TODO: declare your hash map here.
 
     // Two bananas are already given for you :)
     basket.insert(String::from("banana"), 2);
+    basket.insert(String::from("banan"), 2);
+    basket.insert(String::from("bana"), 2);
+    basket.insert(String::from("ban"), 2);
 
     // TODO: Put more fruits in your basket here.
 
